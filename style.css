@@ -1,0 +1,113 @@
+body{
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+span{
+    color:orangered;
+}
+
+.common-alignment{
+    padding: 50px 100px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.section-1{
+    background-image: url(./images/bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.section-1 img{
+    width: 125%;
+    padding: auto;
+}
+
+.section-1 p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.button{
+    text-decoration: none;
+    padding: 20px 40px;
+    background-image: linear-gradient(red, orange);
+    border-radius: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.section-2{
+    background-image: url(./images/bg1.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.section-2 img{
+    width: 65%;
+}
+
+.section-2 p{
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.section-3{
+    text-align: center;
+    background-image: url(./images/bg2.jpg);
+    background-size: contain;
+    background-position: bottom;
+}
+
+.recipe-box{
+    width: 500px;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 5px 10px 40px pink;
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+.recipe-box img{
+    width: 100%;
+    border-radius: 20px;
+}
+.recipe-box p{
+    text-align: justify;
+}
+
+.stat-box{
+    box-shadow: 5px 10px 40px pink;
+    border-radius: 20px;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.stat-box div{
+    margin: 0px 100px;
+}
+
+footer{
+    background-color: black;
+    padding: 50px;
+    color:gray;
+    text-align: center;
+}
